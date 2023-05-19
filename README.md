@@ -6,7 +6,7 @@ The recording for this presentation is [here](https://www.youtube.com/watch?v=lI
 
 ## Credits & References
 
-A lot of this knowledge was provided by Ken Run [in his blog.](https://renkun.me/):
+A lot of this knowledge was provided by Ken Run [in his blog:](https://renkun.me/)
 - https://renkun.me/2019/12/11/writing-r-in-vscode-a-fresh-start/
 - https://renkun.me/2022/03/06/my-recommendations-of-vs-code-extensions-for-r/
 - https://renkun.me/2020/06/16/using-httpgd-in-vscode-a-web-based-svg-graphics-device/
@@ -15,6 +15,9 @@ A lot of this knowledge was provided by Ken Run [in his blog.](https://renkun.me
 Other references:
 - https://www.programmingwithr.com/setup-visual-studio-code-to-run-r-on-vscode-2021/
 - https://github.com/REditorSupport/vscode-R/wiki
+- https://stackoverflow.com/questions/57395681/getting-visual-studio-code-to-auto-format-r-code
+- https://stackoverflow.com/questions/71608612/how-to-add-keybindings-in-visual-studio-code-for-the-r-terminal
+
 
 ## Instructions
 
@@ -34,6 +37,7 @@ The previous steps will get you started. For additional configuration settings, 
 If you want to use [`radian`](https://github.com/randy3k/radian) as the R console, you will need to have it installed in your _base_ Python environment.
 
 Add the following lines to your VSC Settings:
+
 `"r.rterm.mac": "<PATH-TO-RADIAN>",`
 `"r.bracketedPaste": true,`
 
