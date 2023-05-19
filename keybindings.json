@@ -1,0 +1,33 @@
+// Place your key bindings in this file to override the defaults
+// Note: these keybindings only work in the editor window, not in the console
+[
+  {
+    "key": "alt+-",
+    "command": "type",
+    "when": "editorLangId =~ /r|rmd|qmd/ && editorTextFocus",
+    "args": {
+      "text": " <- "
+    }
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "type",
+    "when": "editorLangId =~ /r|rmd|qmd/ && editorTextFocus",
+    "args": {
+      "text": " |> "
+    }
+  },
+// https://stackoverflow.com/questions/71608612/how-to-add-keybindings-in-visual-studio-code-for-the-r-terminal
+  {
+    "key": "ctrl+shift+m",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": " |> " },
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+-",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": " <- " },
+    "when": "terminalFocus"
+  },
+]

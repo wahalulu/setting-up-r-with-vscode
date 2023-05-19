@@ -1,0 +1,27 @@
+{
+// Personal VSCode Settings
+    "window.zoomLevel": 1,
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+// The next setting needs to be set in order to use httpgd    
+    "r.plot.useHttpgd": true,
+// https://stackoverflow.com/questions/57395681/getting-visual-studio-code-to-auto-format-r-code
+    "[r]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+    },
+    "r.sessionWatcher": true,
+// If you use radian the next two seetings need to be set
+//    "r.bracketedPaste": true,
+//    "r.rterm.mac": "<PATH-TO-RADIAN>",
+    "r.rterm.option": [
+        "--no-save",
+        "--no-restore",
+        "--no-restore-history",
+        "--no-site-file",
+        "--quiet"
+    ],
+}
