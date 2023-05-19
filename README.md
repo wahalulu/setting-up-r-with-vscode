@@ -38,8 +38,10 @@ If you want to use [`radian`](https://github.com/randy3k/radian) as the R consol
 
 Add the following lines to your VSC Settings:
 
-`"r.rterm.mac": "<PATH-TO-RADIAN>",`
-`"r.bracketedPaste": true,`
+```json
+"r.rterm.mac": "<PATH-TO-RADIAN>",
+"r.bracketedPaste": true,
+```
 
 ## Using R with VSC on Azure Machine Learning
 
